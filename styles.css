@@ -346,9 +346,8 @@ h1 {
 }
 /* Image Grid */
 .image-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  height: 100rem;
+  display: flex;
+  height: 50rem;
   width: 100%;
 }
 .milk {
@@ -412,7 +411,7 @@ footer ul:hover{
   /* Responsive Images */
   
   .transform-section-img {
-    /* background-image: url("images/desktop/image-transform.jpg"); */
+    background-image: url("images/desktop/image-transform.jpg");
   }
 
   .standout-section-img {
